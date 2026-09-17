@@ -10,7 +10,7 @@ def index():
 
 @app.route('/predictor',methods=['GET'])
 def predictor():
-    result = pre.predict("images/Alia Bhatt_10.jpg")
+    result = pre.predict("images/Amitabh Bachchan_0.jpg")
     return result
 
 @app.route('/postpred',methods=['POST'])
